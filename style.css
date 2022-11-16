@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(pic1.jpg);
+    background-position: center;
+    block-size:cover;
+    height: 109vh;
+}
+.vavbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: white;
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    padding-top: 10px;
+    float: left;
+}
+.menu{
+    width: 420px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 60px;
+    margin-top:27px ;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: chartreuse;
+}
+.search{
+    width: 300px;
+   float: left;
+   margin-left: 375px;
+}
+.srch{
+    font-family:'Times New Roman';
+    width: 200px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid white;
+    margin-top: 25px;
+    color:#fff;
+    border-right:none ;
+    font-size: 20px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius:5px ;
+    border-top-left-radius: 5px;
+}
+.btn{
+    
+    width:100px;
+    height: 30px;
+    background:orange;
+    border: 2px solid white;
+    margin-top: 25px;
+    color: #fff;
+    font-size: 20px;
+   
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.content {
+    width: 1000px;
+    height:auto;
+    margin: auto;
+    columns: red;
+    position: relative;
+}
+.par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    line-height:25px;
+    color: rgb(66, 206, 38);
+}
+.content h1{
+    font-size: 50px;
+    padding-left: 20px;
+    color: #fff;
+    letter-spacing:2px;
+    margin-right: 500px;
+}
+ .cn{
+    width: 80px;
+    height: 30px;
+    background: orange;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+
+
+}
+.cn a{
+    text-decoration: none;
+}
